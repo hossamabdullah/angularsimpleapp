@@ -1,0 +1,6 @@
+<form [formGroup]="editInfoForm" (ngSubmit)="save()">
+  <input type="text" formControlName="username"/>
+  <input type="text" formControlName="email"/>
+  <input type="password" formControlName="password"/>
+  <input type="submit" value="submit"/>
+</form>
